@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgb(122, 101, 199);
+    color: white;
+    padding: 8px;
+}
+
+h4
+{
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 1.7em;
+}
+
+.weather_search{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.weather_search input
+{
+    padding: 10px 2px;
+    border: 2px solid purple;
+    text-align: center;
+}
+
+.weather_search button 
+{
+    margin-left: 1vh;
+   
+    padding: 10px;
+    background-color: gold;
+    
+}
+
+.not_found
+{
+    text-align: center;
+    margin-top: 6vh;
+}
+
+
+
+h5
+{
+    text-align: center;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 8vh;
+}
+
+#display_card
+{
+    display: none;
+}

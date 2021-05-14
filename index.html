@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Live Weather</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="weather.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+        <nav>
+         <h3>Real-Time-Weather</h3>
+         <p>Created by:Krishnachaitanya</p>
+        </nav>
+        </div>
+
+         <section class="weather">
+          
+          <div class="weather_heading">
+          <h4>Catch Live Weather!<br>
+              Let's Search</h4>
+          </div>
+
+          <div class="weather_search">
+          <input type="search" placeholder="City...." name="" id="city">
+          <button id="btn_search">Search</button>
+          </div>
+        
+         
+         </section>
+
+         <section class="weather_display">
+          <div class="not_found">
+           
+          </div>
+          </section>
+
+          <section id="display_card"> 
+          
+          <div class="weather_card" >
+           
+           <div class="heading">
+
+           <h5>Weather</h5>
+           <img src="" id="weather_image">
+           <p id="report"></p>
+           <h5>Location</h5>
+           <p id="location"></p>
+           <h5>Last_update</h5>
+           <p id="last_update"></p>
+           </div>
+           </div>
+
+           
+         </section>
+        
+        <script src="weather.js" ></script>
+    </body>
+</html>
